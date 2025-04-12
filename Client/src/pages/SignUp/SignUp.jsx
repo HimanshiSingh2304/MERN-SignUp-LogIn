@@ -22,7 +22,7 @@ const SignUp = () => {
      const handleSubmit = async(e) =>{
          e.preventDefault();
          try {
-             const result = await axios.post("http://localhost:4000/api/auth/signup", formData);
+             const result = await axios.post("https://mern-signup-login-oe9w.onrender.com/api/auth/signup", formData);
              
      
              if (result.data.success) { 
