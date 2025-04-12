@@ -1,0 +1,123 @@
+.frame {
+    height: 729px;
+    position: relative;
+    width: 1440px;
+
+}
+.img{
+    height: 729px;
+    left: 899px;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    width: 541px;
+
+}
+h1{
+    height: 578px;
+    left: 50px;
+    position: absolute;
+    top: 30px;
+    width: 604px;
+    color: #000000;
+    font-family: "Inter-ExtraBold", Helvetica;
+    font-size: 40px;
+    font-weight: 800;
+    height: 59px;
+    letter-spacing: -2.04px;
+    line-height: 58.8px;
+    position: absolute;
+
+    white-space: nowrap;
+}
+.div {
+    height: 600px;
+    left: 184px;
+    position: absolute;
+    top: 128px;
+    width: 592px;
+   
+    
+}
+.div2{
+    align-items: center;
+    display: inline-flex;
+    flex: 0 0 auto;
+    gap: 84.57px;
+    justify-content: center;
+    margin-right: -2.57px;
+    position: relative;
+    }
+.textWrapper{
+    color: #333333;
+    font-family: "Poppins-Medium", Helvetica;
+    font-size: 22.6px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: normal;
+    margin: -0.70px;
+    position: relative;
+    width: fit-content;
+}
+.textWrapper2{
+color: #1877f2;
+font-family: "Poppins-Regular", Helvetica;
+font-size: 11.3px;
+font-weight: 400;
+letter-spacing: 0;
+line-height: normal;
+position: relative;
+text-decoration: underline;
+width: fit-content;
+cursor: pointer;
+}
+.section{
+    align-items: flex-start;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap:2.82px;
+    position: relative;
+    width: 376.34px;
+    }
+    .label{
+        background: transparent;
+        border: none;
+        color: #666666;
+        font-family: "Poppins-Regular",Helvetica;
+        font-size: 13px;
+        font-weight: 400;
+    
+        letter-spacing: 0;
+        line-height: normal;
+        padding: 0;
+        position:relative;
+        
+    }
+    .textField{
+        align-self: stretch;
+        border: 0.7px solid;
+        border-color: #66666659;
+        border-radius: 8.46px;
+        height: 39.47px;
+        position: relative;
+        width: 100%;
+    }
+    .button {
+        background-color: #848282;
+        border-radius: 28.19px;
+        height: 45.1px;
+        overflow: hidden;
+        position: relative;
+        width: 376.34px;
+        cursor: pointer;
+        top:30px;
+        left: 0;
+        border-style: none;
+        color: #FFFFFF;
+        font-weight: 700;
+        }
+        .button:hover {
+            background-color: #0056b3; /* Darker blue on hover */
+            transform: scale(1.05); /* Slightly enlarge button */
+        }

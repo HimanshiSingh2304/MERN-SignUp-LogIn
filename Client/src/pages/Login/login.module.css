@@ -1,0 +1,128 @@
+.frame {
+    height: 729px;
+    position: relative; 
+    width: 1440px;
+  }
+  .img{
+    height: 729px;
+    left: 899px;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    width: 541px;
+  }
+
+.textWrapper {
+    color: #000000;
+    font-family: "Poppins-ExtraBold", Helvetica;
+    font-size: 40px;
+    font-weight: 800;
+    height: 40px;
+    left: 20px;
+    letter-spacing: -2.00px;
+    line-height: 40px;
+    position: absolute;
+    top: 15px;
+    white-space: nowrap;
+}
+    
+.div3{
+    height: 229px;
+    left: 60px;
+    position: absolute;
+    top: 130px;
+    width: 592px;
+}
+.inputField1 {
+    width: 95%;
+    padding: 12px;
+    border-radius: 8px;
+    border: none;
+    background-color:#e9eae6;
+    color: #333;
+    font-size: 16px;
+  }
+  .inputField2 {
+    width: 95%;
+    padding: 12px;
+    border-radius: 8px;
+    border: none;
+    background-color:#e9eae6;
+    color: #333;
+    font-size: 16px;
+    position: relative;
+    top:15px;
+  }
+  .togglePassword {
+    position: absolute;
+    right: 15px;
+    top: 80%;
+    transform: translateY(-50%);
+    cursor: pointer;
+  }
+  .passwordContainer {
+    position: relative;
+    width: 100%;
+  }
+  .divWrapper2{
+    background-color: #e0e2d9;
+    border-radius: 64px;
+    height: 48px;
+    left: 0;
+    position: absolute;
+    top: 181px;
+    width: 592px;
+    cursor: pointer;
+    color: #999a98; 
+    font-family: "Inter-SemiBold", Helvetica;
+    font-size: 16px; 
+    font-weight: 600; 
+   
+    letter-spacing: -0.32px; 
+    line-height: 24px;
+    position: absolute;
+    text-align: center;
+    
+    white-space: nowrap;
+    border-style: none;
+    
+}
+.autoLayout3{
+    align-items: flex-start;
+    display: inline-flex;
+    gap: 3.59px;
+    left: 192px;
+    position: absolute;
+    top: 420px;
+}
+.dontHaveAn {
+    color: #000000;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 21px;
+    margin-top: -1.00px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+}
+.textWrapper6 {
+    color: #1877f2;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 21px;
+    margin-top: -1.00px;
+    position: relative;
+    text-decoration: underline;
+    white-space: nowrap;
+    cursor: pointer;
+    width: fit-content;
+}
+.divWrapper2:hover {
+    background-color: #0056b3; 
+    transform: scale(1.05); 
+    color: #FFFFFF;
+}
