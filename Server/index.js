@@ -7,7 +7,7 @@ import router from "./Routes/index.js"
 dotenv.config();
 const app= express()
 app.use(cors({
-    origin: "https://mern-sign-up-log-in.vercel.app",
+    origin: "https://mern-signup-login-frontend.onrender.com",
     credentials:true
 }))
 app.use(express.json())
