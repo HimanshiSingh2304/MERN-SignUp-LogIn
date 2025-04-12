@@ -19,7 +19,7 @@ const Dashboard = () => {
   
       const fetchDashboardData = async () => {
         try {
-          const res = await fetch("http://localhost:4000/api/user/dashboard", {
+          const res = await fetch("https://mern-signup-login-oe9w.onrender.com/api/user/dashboard", {
             headers: {
               Authorization: `Bearer ${token}`
             }
